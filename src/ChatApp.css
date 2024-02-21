@@ -1,0 +1,85 @@
+/***** Globals *****/
+.box-shadow {
+  box-shadow: 0 0.1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+/***** End Globals *****/
+
+/***** Send message *****/
+.send-message-absolute {
+  position: absolute;
+  top: 50%;
+  right: 1%;
+  transform: translateY(-50%);
+}
+.chats-height {
+  height: calc(100vw - 59vw);
+  overflow: auto;
+}
+.send-message-icon {
+  width: 1.75rem;
+  height: 1.75rem;
+  vertical-align: sub;
+}
+.send-message {
+  padding: 0.75rem 4.5rem 0.75rem 0.75rem;
+}
+.file-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  vertical-align: bottom;
+}
+/***** End Send message *****/
+
+/***** User chats *****/
+.user-chats .user-profile {
+  width: 80px;
+  height: 80px;
+}
+/***** End User chats *****/
+
+/***** Chats *****/
+.message .user-profile {
+  width: 60px;
+  height: 60px;
+}
+.message p {
+  background-color: var(--admin-light-color);
+  padding: 5px 10px;
+  border-radius: 0px 10px 10px 10px;
+}
+.message.owner p {
+  background-color: #5f6980;
+  padding: 5px 10px;
+  border-radius: 10px 0px 10px 10px;
+  color: white;
+}
+.message.owner span {
+  justify-content: end;
+}
+.message.owner {
+  text-align: end;
+  flex-direction: row-reverse;
+}
+/***** End Chats *****/
+
+/***** Search *****/
+.chatSearch .btn.btn-search {
+  position: absolute;
+  padding: 5px 10px;
+  right: 0%;
+  border-radius: 0px 5px 5px 0px;
+  top: 3%;
+  color: white;
+  background-color: #4b5563;
+}
+.chatSearch .btn.btn-search:hover {
+  background-color: #505255;
+}
+/***** End Search *****/
+
+/***** Message *****/
+.message-before-select {
+  height: calc(100vw - 50vw);
+}
+/***** End Message *****/
