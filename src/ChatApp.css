@@ -44,7 +44,7 @@
   height: 60px;
 }
 .message p {
-  background-color: var(--admin-light-color);
+  background-color: #E7EAEE;
   padding: 5px 10px;
   border-radius: 0px 10px 10px 10px;
 }
