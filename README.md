@@ -1,4 +1,4 @@
-Test link
+App link
 https://reactfirebasechatapp.netlify.app/
 
 # React + Vite
